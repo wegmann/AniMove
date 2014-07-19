@@ -1,8 +1,10 @@
-Package: a
-Title: What the package does (short line)
+Package: AniMove
+Title: Providing animal movement and environmental data sets
 Version: 0.1
 Authors@R: "First Last <first.last@example.com> [aut, cre]"
-Description: What the package does (paragraph)
-Depends: R (>= 3.0.2)
+Description: The AniMove package provides a wide range of movement data and
+    corresponding environmental data sets.
+Depends:
+    R (>= 3.0.2)
 License: What license is it under?
 LazyData: true

@@ -24,12 +24,12 @@
 #' plot(pa)
 #' plot(abspres_poi,col="yellow",add=T)
 #' @docType data
-#' @name load_vector
+#' @name load_study_x
 #' @references
-#' \href{http://remote-sensing-biodiversity.org/rsecology-book}.
-#' @author Martin Wegmann
+#' \href{http://www.animove.org}.
+#' @author ... Martin Wegmann ....
 
-        load_vector <- function(overwrite=TRUE){
+        load_study_x <- function(overwrite=TRUE){
                               x <- c("lsat_extent_LL","lsat_extent","roads","pa","abspres_poi","pres_poi","count_poi","trend_poi","study_area","movement_vector_w_time","training_vector_data","change_classes")  
                               for ( i in x) {
                               if(exists(i)) warning('object "', i, '" already exists',call.=FALSE)

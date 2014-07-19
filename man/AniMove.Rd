@@ -3,8 +3,8 @@
 \name{AniMove}
 \alias{AniMove}
 \alias{AniMove-package}
-\title{a.}
+\title{AniMove}
 \description{
-a.
+AniMove
 }
 

@@ -1,4 +1,4 @@
-#' a.
+#' AniMove
 #'
 #' @name AniMove
 #' @docType package
